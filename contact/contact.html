@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+    <link rel="stylesheet" href="Contact.css" />
+    <link rel="stylesheet" href="/cart.css" />
+    <!-- fontawesom -->
+
+    <script
+      src="https://kit.fontawesome.com/ed618e71cf.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body id="body">
+    <!-- header section -->
+
+    <div class="container p-0">
+      <div class="row  p-1">
+        <div class="col-lg-6 col-md-12 text-start nav-heading  mb-0">
+          <strong class="fst-italic">WELCOME TO PROTEIN GRIND</strong>
+        </div>
+        <div class="col-lg-6 col-md-12 pb-0">
+          <ul class="nav-icon list-unstyled d-flex mb-0 justify-content-end">
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- navbar section -->
+    <nav class="navbar py-1 navbar-expand-lg bg-primary bg-light">
+      <div class="container">
+        <button
+          title="toggle-button"
+          class="navbar-toggler"
+          data-bs-target="#canva"
+          data-bs-toggle="offcanvas"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a
+          title="logo"
+          href="/home/index.html"
+          class="navbar-brand"
+          <a
+          title="logo"
+          href="/index.html"
+          class="navbar-brand"
+          ><img class="logo-img" src="/Images/logo.png" alt=""
+        /></a>
+        <div class="offcanvas offcanvas-start bg-light" id="canva">
+          <div class="offcanvas-header">
+            <h3 class="mb-0">protiengrind</h3>
+            <button
+              title="dismiss-button"
+              class="btn-close bg-white"
+              data-bs-dismiss="offcanvas"
+            ></button>
+          </div>
+          <div class="offcanvas-body justify-content-between">
+            <ul class="navbar-nav text-center d-flex align-items-center">
+              <li class="nav-item">
+                <a href="/home/index.html" class="nav-link me-4">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Categories
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="#">optimum nutrition</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Dymatize</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">All Categories</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a href="/shop/shop.html" class="nav-link me-4">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a href="/blog/blog.html" class="nav-link me-4">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a href="/contact/contact.html" class="nav-link me-4"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="icon-cart text-dark">
+          <button
+            title="cart-btn"
+            class="btn"
+            data-bs-toggle="modal"
+            data-bs-target="#modal-cart"
+          >
+            <svg
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 18 20"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"
+              />
+            </svg>
+          </button>
+
+          <span>0</span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Modal -->
+    <div class="modal" tabindex="-1" id="modal-cart">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Shopping cart</h5>
+            <button
+              type="button"
+              class="btn-close bg-light"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="listCart"></div>
+          </div>
+          <div class="modal-footer" id="modal-footer">
+            <button class="btn btn-light close" data-bs-dismiss="modal">
+              CLOSE
+            </button>
+            <button class="btn btn-light checkOut">Check Out</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- === Contact Section === -->
+    <section class="contact my-5">
+      <div class="container">
+        <div class="section-header">
+          <h2>Contact</h2>
+          <p>Feel free to contact us via filling this form or with socials</p>
+        </div>
+        <div class="row gx-lg-0 gy-4">
+          <div class="col-lg-4">
+            <div
+              class="info-container d-flex flex-column justify-content-center align-item-center"
+            >
+              <div class="info-item d-flex">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h4>Location:</h4>
+                  <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+              </div>
+              <div class="info-item d-flex">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h4>Email:</h4>
+                  <p>protiengrind@gmail.com</p>
+                </div>
+              </div>
+              <div class="info-item d-flex">
+                <i class="bi bi-phone flex-shrink-0"></i>
+                <div>
+                  <h4>Call:</h4>
+                  <p>+92 307 8334001</p>
+                </div>
+              </div>
+              <div class="info-item d-flex">
+                <i class="bi bi-clock-history flex-shrink-0"></i>
+                <div>
+                  <h4>Open Hours:</h4>
+                  <p>24/7</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <form action="" class="email-form">
+              <div class="row justify-content-between">
+                <div class="col-md-6 form-group">
+                  <input
+                    class="form-control"
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Frist Name"
+                    required
+                  />
+                </div>
+                <div class="col-md-6 form-group">
+                  <input
+                    class="form-control"
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Your Email"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input
+                  class="form-control"
+                  type="text"
+                  name="subject"
+                  id="subject"
+                  placeholder="Subject"
+                  required
+                />
+              </div>
+              <div class="from-group mt-3">
+                <textarea
+                  class="form-control"
+                  name="message"
+                  rows="7"
+                  placeholder="Message"
+                  required
+                ></textarea>
+              </div>
+
+              <div class="text-center mt-5">
+                <button type="submit">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
+    <!-- footer section -->
+
+    <div class="container-fluid">
+      <div class="row p-3" id="footer-row">
+        <div class="footer-scetion col-md-4">
+          <h3>NewsLetter</h3>
+          <p class="m-0 p-0">Get the latest news sent to your email</p>
+          <form class="mt-4 mb-2 w-50">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </form>
+          <button class="btn w-50 btn-outline-success" type="submit">
+            Signup
+          </button>
+          <br />
+        </div>
+        <div class="footer-scetion col-md-4">
+          <h3 class="">Need help</h3>
+          <ul class="m-0 p-0">
+            <li class="footer-links">Help center</li>
+            <li class="footer-links">Email support</li>
+            <li class="footer-links">Live chat</li>
+            <li class="footer-links">customer support</li>
+          </ul>
+        </div>
+        <div class="footer-scetion col-md-4">
+          <h3>Ordering and shipping</h3>
+          <ul class="m-0 p-0 unstyled">
+            <li class="footer-links">Order status</li>
+            <li class="footer-links">Return/Exchange</li>
+            <li class="footer-links">Shipping support</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

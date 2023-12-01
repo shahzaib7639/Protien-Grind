@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name":" Protien Grind",
+        "price": 200,
+        "image": "/Images/Healthy-Foods.png"
+    },
+    {
+        "id": 2,
+        "name":" Protien Grind",
+        "price": 250,
+        "image": "/Images/Healthy-Foods.png"
+    },
+    {
+        "id": 3,
+        "name":" Protien Grind",
+        "price": 290,
+        "image": "/Images/Healthy-Foods.png"
+    },
+    {
+        "id": 4,
+        "name":" Protien Grind",
+        "price": 200,
+        "image": "/Images/Healthy-Foods.png"
+    },
+    {
+        "id": 5,
+        "name":" Protien Grind",
+        "price": 300,
+        "image": "/Images/Healthy-Foods.png"
+    },
+    {
+        "id": 6,
+        "name":" Protien Grind",
+        "price": 200,
+        "image": "/Images/Healthy-Foods.png"
+    },
+    {
+        "id": 7,
+        "name":" Protien Grind",
+        "price": 200,
+        "image": "/Images/Healthy-Foods.png"
+    },
+    {
+        "id": 8,
+        "name":" Protien Grind",
+        "price": 200,
+        "image": "/Images/Healthy-Foods.png"
+    }
+
+]

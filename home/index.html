@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="/cart.css" />
+
+  <!-- fontawesom -->
+
+  <script src="https://kit.fontawesome.com/ed618e71cf.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+
+  <link rel="icon" href="https://rajamanickam.vercel.app/favicon-rajamanickam.png" />
+  <!-- aos animation -->
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <title>protiengrind</title>
+</head>
+
+<body id="body">
+  <!-- login form -->
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="login-inner">
+          <h3>LOGIN</h3>
+          <form action="">
+            <div class="form-group">
+              <label for="">Username or email address *</label>
+              <input class="input-field" type="text" class="wocommerce" name="username" id="username" required>
+            </div>
+            <div class="form-group">
+              <label for="">Password *</label>
+              <input class="input-field" type="password" class="wocommerce" name="password" id="password" required>
+            </div>
+            <div class="form-group">
+              <label for="rememberme">
+                <input class="input-field" type="checkbox" class="wocommerce" name="rememberme" id="rememberme"
+                  required>
+                <span>Remember me</span>
+              </label>
+            </div>
+            <div class="login-btn">
+              <button type="submit">LOGIN</button>
+              <a href="">Lost Your Password</a>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="login-outer">
+          <h3>REGISTER</h3>
+          <div class="group-form">
+            <label for="name">Username *</label>
+            <input class="input-field" type="text" name="name" id="name" required>
+          </div>
+          <div class="group-form">
+            <label for="email">Email address *</label>
+            <input class="input-field" type="email" name="email" id="email" required>
+          </div>
+          <div class="group-form">
+            <input class="input-field" type="password" name="password" id="password" required>
+          </div>
+          <p>
+            "Protecting your data is our priority. Read our concise <span>privacy policy</span> before signing up."</p>
+            <button type="submit">REGISTER</button>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <!-- header section -->
+  <!-- vo -->
+  <div class="container p-0">
+    <div class="row  p-1">
+      <div class="col-lg-6 col-md-12 text-start nav-heading  mb-0">
+        <strong class="fst-italic">WELCOME TO PROTEIN GRIND</strong>
+      </div>
+      <div class="col-lg-6 col-md-12 pb-0">
+        <ul class="nav-icon list-unstyled d-flex mb-0 justify-content-end">
+          <a href=""><i class="bi bi-facebook"></i></a>
+          <a href=""><i class="bi bi-instagram"></i></a>
+          <a href=""><i class="bi bi-linkedin"></i></a>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- navbar section -->
+  <nav class="navbar py-1 navbar-expand-lg bg-primary bg-light">
+    <div class="container">
+      <button title="toggle-button" class="navbar-toggler" data-bs-target="#canva" data-bs-toggle="offcanvas">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a title="logo" href="/home/index.html" class="navbar-brand"><img class="logo-img" src="/Images/logo.png"
+          alt="" /></a>
+      <div class="offcanvas offcanvas-start bg-light" id="canva">
+        <div class="offcanvas-header">
+          <h3 class="mb-0">protiengrind</h3>
+          <button title="dismiss-button" class="btn-close bg-white" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body justify-content-between">
+          <ul class="navbar-nav text-center d-flex align-items-center">
+            <li class="nav-item">
+              <a href="/home/index.html" class="nav-link me-4">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Categories
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">optimum nutrition</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Dymatize</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="#">All Categories</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a href="/shop/shop.html" class="nav-link me-4">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a href="/blog/blog.html" class="nav-link me-4">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="/contact/contact.html" class="nav-link me-4">Contact</a>
+            </li>
+          </ul>
+          <div class="nav-button">
+            <button class="nav-btn">LOGIN / REGISTER </button>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="icon-cart text-dark">
+        <button title="cart-btn" class="btn" data-bs-toggle="modal" data-bs-target="#modal-cart">
+          <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+          </svg>
+        </button>
+
+        <span>0</span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Modal -->
+  <div class="modal" tabindex="-1" id="modal-cart">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Shopping cart</h5>
+          <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="listCart"></div>
+        </div>
+        <div class="modal-footer" id="modal-footer">
+          <button class="btn btn-light close" data-bs-dismiss="modal">
+            CLOSE
+          </button>
+          <button class="btn btn-light checkOut">Check Out</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- carousel section -->
+  <div class="container-fluid p-0" id="carousel-container">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/Images/hero-3.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="/Images/hero-3.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="/Images/hero-3.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- cards section -->
+  <h3 class="title text-center text-uppercase fs-1 fst-italic font-monospace mt-5 fw-bold">
+    Categories
+  </h3>
+
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-md-6 my-3 px-4">
+        <h3 class="text-center mb-4">Optimum Nutrition</h3>
+        <div class="homepage-cards card mx-auto">
+          <img src="/Images/optimumnutrition.webp" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text fst-italic">
+              <span class="bg-dark text-white px-4 rounded-pill">OPTIMUM NUTRITION</span>
+              GOLD STANDARD 100% WHEY PROTEIN Flavor:Vanilla Ice
+              Cream,Chocolate Weight:1,2,5 lbs.
+            </p>
+            <button type="button" class="btn btn-outline-dark w-100">
+              Shop Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 my-3 px-4">
+        <h3 class="text-center mb-4">Dymatize</h3>
+        <div class="homepage-cards card mx-auto">
+          <img src="/Images/optimumnutrition.webp" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text fst-italic">
+              <span class="bg-dark text-white px-4 rounded-pill">DYNAMITZE</span>
+              SUPER MASS GAINER, 100% WHEY PROTEIN Flavor:Gourmet Chocolate,
+              Vanilla Weight:1.6 lbs, 3 lbs, 5 lbs
+            </p>
+            <button type="button" class="btn btn-outline-dark w-100">
+              Shop Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Why choose us section -->
+  <div class="container my-5">
+    <h3 class="text-center text-uppercase fs-1 fst-italic font-monospace fw-bold">
+      why choose us!
+    </h3>
+    <div class="choose-us-row row my-5 text-center bg-light fst-italic fs-3 fw-bold">
+      <div class="col-md-4">
+        NO ARTIFICIAL SWEETNERS <i class="fa-solid fa-cubes-stacked"></i>
+      </div>
+      <div class="col-md-4">NO ADDITIVES</div>
+      <div class="col-md-4">NO ARTIFICIAL COLORS</div>
+    </div>
+  </div>
+
+  <!-- best sellers -->
+
+  <div class="container">
+    <h3 class="text-uppercase fs-1 mb-5">Best Sellers</h3>
+    <div class="listProduct"></div>
+    <p class="border my-5"></p>
+  </div>
+
+  <!-- About us  -->
+  <div class="container my-5">
+    <div class="row text-start">
+      <div class="col-md-8">
+        <h3 class="fs-1 fst-italic fw-bolder mb-2">Why Protien is Essential</h3>
+        <p>
+          Muscle Growth: Whey protein is rich in essential amino acids,
+          promoting muscle protein synthesis and aiding in muscle development.
+          Weight Management: It can help with weight loss by promoting
+          satiety, reducing overall calorie intake, and supporting the
+          preservation of lean muscle mass. Quick Absorption: Whey protein is
+          rapidly absorbed by the body, making it an efficient source of
+          protein for post-workout recovery. Complete Protein Source: It
+          contains all essential amino acids required by the body, supporting
+          overall protein needs. Convenience: Easily mixable and portable,
+          whey protein powder provides a convenient way to increase protein
+          intake, especially for those with busy lifestyles.
+        </p>
+        <h3 class="fs-1 fst-italic fw-bolder mb-2 mt-5">About protiengrind</h3>
+        <p>
+          Welcome to The Protein Factory, your best source for premium-quality
+          supplements and accessories in Pakistan. We are committed to
+          providing our customers with a wide range of high-quality products
+          imported from UK at affordable prices. We are the official
+          distributors of THE PROTEIN WORKS™ (UK) in Pakistan. Our products
+          are produced in UK following strict quality control policies.
+          Whether you’re a fitness enthusiast, athlete, or someone looking to
+          improve overall health and wellness, we have everything you need to
+          support your health goals.
+        </p>
+        <p class="fw-bold fs-1 mt-5">Start Your Journey Now</p>
+        <button class="btn w-25 btn-light">Shop Now</button>
+      </div>
+      <div class="col-md-4 mt-3">
+        <img src="/Images/about_page-0001.jpg" class="w-100" alt="" />
+      </div>
+    </div>
+  </div>
+
+  <!-- ------------ -->
+  <section class="bg-section">
+  <div class="container   my-5">
+    <!-- <p class="border"></p> -->
+    <div class="row low-cost text-dark">
+      <div class="col-md-4 text-center ">
+        <i class="bi bi-lightbulb"></i>
+        <strong class="text-dark">Low Cost Shipping</strong>
+        <p class="pt-3">on all orders <br> Cash on delivery all over Pakistan</p>
+      
+      </div>
+      <div class="col-md-4 text-center">
+        <i class="bi  bi-gem"></i>
+        <strong class="text-dark">100% genuin products</strong>
+        <p class="pt-3">All products are imported from uk <br>Our supplements are 100% genuine</p> 
+        <p class="mb-1 "></p>
+      </div>
+      <div class="col-md-4 text-center">
+        <i class="bi  bi-stopwatch"></i>
+        <strong class="text-dark">We can help you online</strong> 
+        <p class="pt-3">Our service is 24/7 <br> if you have some queries feel free to ask</p>
+      </div>
+    </div>
+    <p class="border"></p>
+  </div>
+ </section>
+
+  <!-- footer section -->
+  <div class="container-fluid">
+    <div class="row text-light p-3" id="footer-row">
+      <div class="footer-scetion col-md-4">
+        <h3>NewsLetter</h3>
+        <p class="m-0 p-0">Get the latest news sent to your email</p>
+        <form class="mt-4 mb-2 w-50">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+        </form>
+        <button class="btn w-50 btn-outline-success" type="submit">
+          Signup
+        </button>
+        <br />
+      </div>
+      <div class="footer-scetion col-md-4">
+        <h3 class="">Need help</h3>
+        <ul class="m-0 p-0">
+          <li class="footer-links">Help center</li>
+          <li class="footer-links">Email support</li>
+          <li class="footer-links">Live chat</li>
+          <li class="footer-links">customer support</li>
+        </ul>
+      </div>
+      <div class="footer-scetion col-md-4">
+        <h3>Ordering and shipping</h3>
+        <ul class="m-0 p-0 unstyled">
+          <li class="footer-links">Order status</li>
+          <li class="footer-links">Return/Exchange</li>
+          <li class="footer-links">Shipping support</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+
+</html>

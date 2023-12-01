@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    /* box-sizing: border-box; */
+
+
+
+}
+
+#body {
+    background-color: #1f1f38;
+    color: white;
+}
+.logo-img{
+  width: 100px;
+}
+.nav-icon a i{
+  padding: 10px;
+  color: #fff;
+}
+.nav-icon a i:hover{
+  color: #6fbaeb;
+}
+
+.nav-item{
+  font-size: 18px;
+  font-weight: 600;
+}
+/* <<<<<<< HEAD >>>>>>> */
+.modal-body{
+  background-color: #1f1f38;
+}
+.modal-header{
+  background-color: #1f1f38;
+  color: white;
+}
+#modal-footer{
+  background-color: #1f1f38 ;
+}
+#modal-close{
+  background-color: yellow;
+}
+
+#footer{
+  background-color: #1f1f38;
+}
+
